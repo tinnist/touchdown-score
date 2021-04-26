@@ -66,6 +66,8 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSp
 let mySprite3: Sprite = null
 let mySprite: Sprite = null
 let list: Sprite[] = []
+game.splash("Welcome to touchdown score!", "Score a touchdown by")
+game.splash("reaching the end of the field.", "Don't get tackled trying to get there!")
 list = []
 info.setLife(5)
 info.setScore(0)
